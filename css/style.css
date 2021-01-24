@@ -103,3 +103,11 @@ img{
     text-align: center;
     font-size: 1.9rem;
 }
+
+/**Contenido**/
+@media(min-width:768px){
+    .contenido-principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
